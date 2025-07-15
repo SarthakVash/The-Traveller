@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Post.css';
 import { useNavigate } from 'react-router-dom';
 import fallbackImage from '../img/me.jpg';
-import me from '../img/sarthakk.jpg'; // for ABOUT ME
+import me from '../img/sarthakk.jpg'; 
 import i1 from '../img/i1.jpg';
 import i2 from '../img/i2.jpg';
 import i3 from '../img/i3.jpg';
@@ -41,7 +41,7 @@ const Post = () => {
   return (
     <div className="container-fluid post">
       <div className="row posts">
-        {/* Left Column: Posts */}
+       
         <div className="col-lg-7 col-md-12 col-sm-10 col-10 d-block mb-5">
           <h4>RECENT POSTS</h4>
           <div className="color">
@@ -98,9 +98,8 @@ const Post = () => {
           </div>
         </div>
 
-        {/* Right Column: About, Social, Insta, Search */}
+      
         <div className="col-lg-4 col-md-12 col-sm-10 col-10 mb-5 self">
-          {/* ABOUT ME */}
           <div className="about">
             <h4>ABOUT ME</h4>
             <div className="color">
@@ -117,7 +116,7 @@ const Post = () => {
             </div>
           </div>
 
-          {/* SOCIAL MEDIA */}
+        
           <div className="social">
             <h4>Social</h4>
             <div className="color">
@@ -139,7 +138,7 @@ const Post = () => {
             </div>
           </div>
 
-          {/* INSTAGRAM */}
+       
           <div className="insta">
             <h4>Instagram</h4>
             <div className="color mb-3">
@@ -162,7 +161,7 @@ const Post = () => {
             </div>
           </div>
 
-          {/* SEARCH */}
+        
           <div className="search">
             <h4>SEARCH</h4>
             <div className="color">
