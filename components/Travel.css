@@ -85,7 +85,7 @@
   margin-top: 15px;
 }
 
-  /* Medium devices (tablets, 768px and up) */
+ 
 @media (max-width: 992px) {
   .travel-guide h1 {
     font-size: 36px;
@@ -109,7 +109,7 @@
 @media (max-width:1480px){
     .travel-guide .line1,
   .travel-guide .line2 {
-    display: none; /* Hide horizontal lines on small screens */
+    display: none; 
   }
 }
 
@@ -129,7 +129,7 @@
  }
 }
 
-/* Small devices (phones, less than 768px) */
+
 @media (max-width: 768px) {
   .travel {
     margin-top: 3rem;
@@ -142,7 +142,7 @@
 
   .travel-guide .line1,
   .travel-guide .line2 {
-    display: none; /* Hide horizontal lines on small screens */
+    display: none; 
   }
 
   .travel .images {
