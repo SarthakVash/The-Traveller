@@ -142,7 +142,7 @@
 @media (max-width:1480px){
    .feature .line1,
   .feature .line2 {
-    display: none; /* Hide horizontal lines on small screens */
+    display: none; 
   }
 
 }
