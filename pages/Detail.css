@@ -1,4 +1,4 @@
-/* ========== General Layout ========== */
+
 .container {
   max-width: 900px;
   margin: auto;
@@ -22,7 +22,7 @@ h4 {
   color: #ea6235;
 }
 
-/* ========== Image Styles ========== */
+
 img.img-fluid {
   width: 100%;
   max-height: 500px;
@@ -30,7 +30,7 @@ img.img-fluid {
   border-radius: 10px;
 }
 
-/* ========== Paragraphs ========== */
+
 p {
   font-size: 1.05rem;
   line-height: 1.7;
@@ -38,7 +38,7 @@ p {
   margin-top: 0.75rem;
 }
 
-/* ========== Gallery ========== */
+
 .row {
   display: flex;
   flex-wrap: wrap;
