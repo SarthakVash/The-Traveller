@@ -87,7 +87,7 @@
 
 
 
-  /* Medium devices - tablets and small laptops */
+
 @media (max-width: 1024px) {
   .hike .hike-guide h1 {
     font-size: 38px;
@@ -107,7 +107,7 @@
 @media (max-width:1480px){
     .hike-guide .line1,
   .hike-guide .line2 {
-    display: none; /* Hide horizontal lines on small screens */
+    display: none; 
   }
 }
 
@@ -127,7 +127,7 @@
 }
 
 
-/* Small tablets and large phones */
+
 @media (max-width: 768px) {
   .hike .hike-guide h1 {
     font-size: 32px;
@@ -153,7 +153,7 @@
   }
 }
 
-/* Phones */
+
 @media (max-width: 480px) {
   .hike {
     margin-top: 3rem;
@@ -165,7 +165,7 @@
   }
 
   .hike .line1, .hike .line2 {
-    display: none; /* Hide gradient lines on very small screens */
+    display: none; 
   }
 
   .hike .images {
