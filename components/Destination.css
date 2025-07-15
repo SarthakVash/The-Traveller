@@ -1,0 +1,365 @@
+.desti {
+    margin-top: 5rem;
+  }
+  
+  .desti .line1 {
+    height: 2px;
+    position: absolute;
+    background-image: linear-gradient(to left, gray, rgb(232, 230, 230));
+    width: 400px;
+    bottom: 50%;
+    left: 12%;
+  }
+  
+  .desti .line2 {
+    height: 2px;
+    position: absolute;
+    background-image: linear-gradient(to right, gray, rgb(232, 230, 230));
+    width: 400px;
+    bottom: 50%;
+    right: 12%;
+  }
+  
+  .desti .guide {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .desti .guide h1 {
+    font-weight: bold;
+    font-family: "Oswald", Sans-serif;
+    font-size: 50px;
+    color: black;
+  }
+  
+  .desti h4 {
+    text-align: center;
+    color: #6e716c;
+  }
+  
+  .desti .images {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .desti .images img {
+    width: 370px;
+    height: 247px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .desti .images img:hover {
+    opacity: 0.7;
+  }
+  
+  .desti .images h5 {
+    color: #313131;
+    font-family: "Philosopher", Sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+.destination .row{
+  gap: 0 !important;
+}
+
+.aero{
+    display: flex;
+    justify-content: center;
+}
+
+.aero button{
+    width: 15rem;
+    padding: 15px;
+    border: 0.5px solid black;
+    background-color: white;
+    box-shadow: 2px 2px 20px 1px rgb(81, 80, 80);
+    color: #363535;
+    margin-top: 30px;
+}
+
+.aero button:hover{
+    background-color: #ea6235;
+    color: white;
+    border: 0.5px solid #ea6235;
+}
+
+.aero button i{
+    margin-right: 10px;
+}
+
+.insta{
+  padding: 15px;
+}
+
+.insta h4{
+  color: black;
+  font-weight: bold;
+}
+
+.insta i{
+  margin-right: 10px;
+}
+
+.images{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.imagess{
+  display: flex;
+  flex-direction: row;
+  gap: 0 !important;
+}
+
+.imagess .insta-img{
+  height: 300px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.imagess .insta-img img{
+  height: 100%;
+  width: 100%;
+}
+
+.destination-card{
+  width: 400px;
+}
+
+.no-underline {
+  text-decoration: none !important;
+  color: black;
+}
+
+.destination-card img{
+  width: 370px;
+  height: 247px;
+  margin-bottom: 15px;
+}
+
+.letter{
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.letter h2{
+  font-weight: bold;
+  color: #313131;
+}
+
+.letter p{
+  color: #5c5c5e;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.letter .mail{
+  width: 30rem;
+  justify-content: space-between;
+  display: flex;
+}
+
+.letter .mail input{
+ width: 20rem;
+ padding: 8px 12px 8px 12px;
+}
+
+.letter .mail button{
+  padding: 8px 12px 8px 12px;
+  color: white;
+  width: 8rem;
+  font-weight: bold;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.letter .mail button:hover{
+  background-color: #ea6235;
+  border: 1px solid #ea6235;
+  opacity: 0.8;
+}
+
+.touch {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.touch::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
+.get-touch {
+  position: relative;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-touch h1 {
+  color: white !important;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.get-touch p {
+  color: white !important;
+  font-size: 1.1rem;
+}
+
+.get-touch span {
+  color: #ff8a5f;
+  font-weight: bold;
+}
+
+.desti .images img{
+  margin-bottom: 0;
+}
+
+.destination-card p{
+  margin: 0;
+}
+
+
+
+/* responsive  */
+
+
+/* @media (min-width: 1500px){
+  
+} */
+
+
+
+
+
+
+/* Large Tablets / Small Laptops */
+
+@media (max-width:1435px){
+  .desti .line1{
+    display: none;
+  }
+  .desti .line2{
+    display: none;
+  }
+  .desti .guide h1{margin-bottom: 0;}
+}
+
+@media (max-width: 1024px) {
+  .destination-card {
+    /* width: 90%; */
+    margin: 1rem auto;
+  }
+
+  .letter .mail {
+    /* width: 100%; */
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .letter .mail input,
+  .letter .mail button {
+    width: 50%;
+  }
+}
+
+@media (max-width:992px){
+     .imagess .insta-img {
+        margin-bottom: 0;
+      }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .line1,
+  .line2 {
+    display: none;
+  }
+
+  .desti .guide h1 {
+    font-size: 2.5rem;
+  }
+
+  .destination-card {
+    width: 95%;
+  }
+
+  .desti .images {
+    justify-content: center;
+  }
+
+  .imagess .insta-img {
+    height: 200px;
+  }
+
+  .letter {
+    padding: 30px;
+  }
+
+  .touch {
+    padding: 60px 15px;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  .destination-card {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .destination-card p {
+    font-size: 14px;
+  }
+
+  .letter h2 {
+    font-size: 1.5rem;
+  }
+
+  .get-touch h1 {
+    font-size: 1.8rem;
+  }
+
+  .get-touch p {
+    font-size: 0.95rem;
+  }
+
+  .aero button {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .insta h4 {
+    text-align: center;
+  }
+
+  .imagess .insta-img {
+    height: 150px;
+    margin-bottom: 0;
+  }
+}
+

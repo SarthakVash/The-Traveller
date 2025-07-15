@@ -1,0 +1,449 @@
+.post {
+    margin-top: 5rem;
+  }
+  
+  .post .color {
+    display: flex;
+  }
+  
+  .post .orange {
+    height: 2.5px;
+    background-color: #ea6235;
+    width: 10%;
+  }
+  
+  .post .gray {
+    height: 2.5px;
+    background-image: linear-gradient(to right, gray, rgb(232, 230, 230));
+    width: 89%;
+  }
+  
+  .post .box {
+    width: 410px;
+    /* height: 390px; */
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .post .box img {
+    width: 100%;
+    border-radius: 10px;
+    height: 247px;
+  }
+  
+  .post .box img:hover {
+    opacity: 0.7;
+  }
+  
+  .post .box .box-head {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .post .box-head p {
+    font-size: 10px;
+    color: #ea6235;
+    font-weight: 600;
+    margin: 0;
+    ;
+  }
+  
+  .post .box-head p i {
+    padding: 0px 5px 0px 5px;
+  }
+  
+  .post .box .box-title h5 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #343333;
+  }
+  
+  .post .box .box-title h5:hover {
+    opacity: 0.7;
+  }
+  
+  .post .box .line {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .post .box .line span {
+    height: 2px;
+    background-color: #ea6235;
+    width: 20%;
+    margin-top: 10px;
+  }
+  
+  .post .box button {
+    background-color: #ff8a65;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 12px;
+    border: 0;
+    margin-top: 15px;
+  }
+  
+  .post .box button:hover {
+    opacity: 0.7;
+  }
+  
+  .post .about {
+    width: 100%;
+    padding: 20px;
+    border: 0.2px solid #dddedc;
+  }
+
+  .about .about-me{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about .about-me .myimg {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .about .about-me img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about .about-me p {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  
+  .about .about-me .text{
+    margin-top: 50px;
+  }
+  
+  .posts{
+    justify-content: center;
+  }
+  
+  
+  .post .social {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 20px;
+    border: 0.2px solid #dddedc;
+  }
+  
+  .post .social .social-media .boxx {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .post .social .social-media .boxx .sm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: baseline;
+    cursor: pointer;
+  }
+  
+   .post .box .box-head{
+    margin-top: 5px;
+  }
+
+  .post .box .box-title h5 {
+    font-size: 12 px;
+    margin-top: 5px;
+  }
+  .post .box .line span{
+    margin-top: 0px;
+  }
+  .post .box button{
+    margin-top: 10px;
+  }
+
+  /* .post .social .social-media .boxx .sm i:hover{
+    background-color: #ea6235;
+    border: 0.2px solid #ea6235;
+    color: white;
+    border: 0;
+  } */
+  
+  .post .social .social-media .boxx .sm i {
+    background-color: white;
+    padding: 7px;
+    color: black;
+    border-radius: 50%;
+    border: 0.2px solid #dddedc;
+  }
+  
+  .post .social .social-media .boxx .sm h5 {
+    padding-left: 20px;
+  }
+  
+  .post .social .social-media .boxx .youtube h5 {
+    padding-right: 25px;
+  }
+  
+  
+  .post .insta {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 20px;
+    border: 0.2px solid #dddedc;
+  }
+  
+  .post .insta .insta-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    /* margin-top: 20px; */
+  }
+  
+  .post .insta .insta-image img {
+    width: 180px;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .post .search {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 20px;
+    border: 0.2px solid #dddedc;
+    justify-content: center;
+  }
+  
+  .post .search .input {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .post .search .input i {
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    font-size: 1.3rem;
+  }
+  
+  .post .search .input input {
+    width: 94%;
+    padding: 10px;
+  }  
+
+.post .cardd{
+  display: flex;
+  justify-content: center;
+}
+
+.posts .row {
+    gap: 0;
+}
+
+
+
+
+  /* Tablets */
+@media (max-width: 992px) {
+  .post {
+    margin-top: 3rem;
+  }
+
+  .post .box {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .post .box img {
+    height: 180px;
+    width: 300px;
+  }
+
+  .post .box-title h5 {
+    font-size: 14px;
+  }
+
+  .post .box-head p {
+    font-size: 9px;
+  }
+
+  .post .about .about-me .myimg {
+    height: 250px;
+    width: 250px;
+  }
+
+  .post .about .about-me p {
+    font-size: 15px;
+  }
+
+  .post .insta .insta-image {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .post .insta .insta-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .post .search .input i {
+    right: 5%;
+    bottom: 20%;
+  }
+
+  .post .search .input input {
+    width: 100%;
+  }
+  .posts .self{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .posts .self .social{
+    margin-top: 0;
+    display: none;
+  }
+  .posts .self .insta{
+   display: none;
+  }
+  .posts .self .search{
+    display: none;
+  }
+}
+
+@media (min-width:992px) and (max-width:1130px){
+ .post .box img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+  } 
+  .post .about .about-me img{
+    width: 90%;
+    height: 90%;
+  }
+  .post .social .social-media .boxx .sm h5 {
+    padding-left: 10px;
+    font-size: 15px;
+}
+.post .insta .insta-image img {
+    width: 138px;
+}
+}
+
+
+@media (max-width: 768px) {
+
+   .post .box img {
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+    .post .cardd {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* .post .insta .insta-image img {
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+  } */
+
+  .post .box p {
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+  .post .box .box-head{
+    margin-top: 5px;
+  }
+
+  .post .box .box-title h5 {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .post .box .line span{
+    margin-top: 0px;
+  }
+  .post .box button{
+    margin-top: 10px;
+  }
+}
+
+
+
+
+/* Mobile Phones */
+@media (max-width: 576px) {
+  .post .box {
+    width: 100%;
+  }
+
+  .post .box img {
+    height: 200px;
+    width: 100%;
+  }
+
+  .post .box-title h5 {
+    font-size: 13px;
+  }
+
+  .post .box-head p {
+    font-size: 8px;
+  }
+
+  .post .about .about-me .myimg {
+    height: 200px;
+    width: 200px;
+  }
+
+  .post .about .about-me p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .post .social .social-media .boxx {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .post .insta .insta-image {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .post .insta .insta-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .post .search .input i {
+    right: 10%;
+    bottom: 25%;
+  }
+
+  .post .search .input input {
+    padding: 8px;
+  }
+
+  .post .color {
+    flex-direction: column;
+  }
+
+  .post .orange, .post .gray {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 3px;
+  }
+}

@@ -1,0 +1,47 @@
+.icons{
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+    display: flex;
+    color: rgb(167, 161, 161)white;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.icons i:hover{
+    color: #ea6235;
+}
+
+footer{
+    background-color: rgb(33, 33, 33);
+    padding: 40px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(167, 161, 161);
+    text-align: center;
+}
+
+.foot hr{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(167, 161, 161);
+}
+
+@media (max-width:450px){
+    footer .foot p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:350px){
+    footer .foot p{
+        font-size: 10px;
+    }
+}
