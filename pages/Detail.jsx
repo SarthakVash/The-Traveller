@@ -24,30 +24,22 @@ const Detail = () => {
 
   return (
     <div className="container my-5">
-      {/* Title */}
       <h1>{post.title}</h1>
-
-      {/* Cover Image */}
       <img src={post.image} alt={post.title} className="img-fluid my-3 rounded" />
-
-      {/* Location */}
       {post.location && (
         <p><strong>📍 Location:</strong> {post.location}</p>
       )}
 
-      {/* Distance & Difficulty */}
       {(post.distance || post.difficulty) && (
         <p>
           <strong>📏 Distance & Difficulty:</strong> {post.distance ? post.distance : '-'} {post.difficulty ? `| Difficulty: ${post.difficulty}` : ''}
         </p>
       )}
 
-      {/* Best Time */}
       {post.bestTime && (
         <p><strong>🕒 Best Time to Go:</strong> {post.bestTime}</p>
       )}
 
-      {/* What to Pack / Tips */}
       {post.tips && (
         <>
           <h4 className="mt-4">🧳 What to Pack / Tips</h4>
@@ -55,7 +47,6 @@ const Detail = () => {
         </>
       )}
 
-      {/* What to Expect */}
       {post.whatToExpect && (
         <>
           <h4 className="mt-4">🌄 What to Expect</h4>
@@ -63,7 +54,6 @@ const Detail = () => {
         </>
       )}
 
-      {/* How to Reach */}
       {post.locationGuide && (
         <>
           <h4 className="mt-4">🧭 How to Reach the Starting Point</h4>
@@ -71,7 +61,6 @@ const Detail = () => {
         </>
       )}
 
-      {/* Main Content */}
       {post.content && (
         <>
           <h4 className="mt-4">Details</h4>
@@ -79,7 +68,6 @@ const Detail = () => {
         </>
       )}
 
-      {/* Gallery Images */}
       {post.galleryImages && post.galleryImages.length > 0 && (
         <>
           <h4 className="mt-4">🖼 Gallery</h4>
